@@ -8,8 +8,8 @@ import axios from "axios";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Importar íconos de ojo
 import "./ResetPasswordForm.css"; // Importar el archivo CSS
 
-// const baseUrl = "https://kinapp-api.vercel.app/";
-const baseUrl = "http://192.168.0.89:3001/";
+const baseUrl = "https://kinapp-api.vercel.app/";
+// const baseUrl = "http://192.168.0.89:3001/";
 
 const FormComponent = () => {
   const navigate = useNavigate();
